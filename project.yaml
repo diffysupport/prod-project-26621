@@ -1,0 +1,68 @@
+basic:
+    name: 'https://deeporion.com'
+    environments:
+        production: 'https://deeporion.com'
+        staging: 'https://staging.deeporion.com/'
+        development: ''
+    breakpoints:
+        - 640
+        - 1024
+        - 1200
+    pages:
+        - /
+        - /portfolio
+        - /career
+        - /hire-us
+        - /about
+        - /services/fullstack-development
+        - /services/web-design-development
+        - /services/ecommerce-development
+        - /services/fundraising-software-development
+        - /portfolio/unified-boxing-club
+        - /industry/auto-mobile
+        - /industry/education
+        - /industry/fashion
+        - /industry/hospitality
+        - /industry/real-estate
+        - /industry/healthcare
+        - /industry/entertainment
+        - /contact-us
+        - /insight
+        - /services/mobile-app-development
+        - /services/pm-tools-development
+        - /services/mvp-development
+        - /services/seo-advertisement
+        - /services/penetration-testing
+        - /services
+        - /industry/ngo
+        - /industry/socialnetworking
+        - /industry
+    monitoring:
+        days: {  }
+        type: ''
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    delay: 15
+    scroll: true
+    headers:
+        - { header: '', value: '' }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: ''
+    sensitivity: 15
+    night_mode: ''
+    retina_images: ''
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
+proxy: false
+type: single-site
